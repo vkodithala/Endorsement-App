@@ -1,0 +1,167 @@
+html {
+    background: #0D0A0E;
+    color: white;
+    font-family: 'Inter';
+    user-select: none;
+}
+
+h1 {
+    margin-top: 17px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 51px;
+    width: 15%;
+}
+
+.endorsement {
+    display: block;
+    color: white;
+    font-family: 'Inter';
+    text-indent: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    width: 317px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    background: #444059;
+    border: 0;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 321px;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 9.29px;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    text-align: left;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    width: 300px;
+    min-height: 40px;
+    background: #444059;
+    border: 0;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9px;
+    padding: 10px 10px;
+}
+
+.from-to {
+    color: white;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    width: 152.85px;
+    height: 40px;
+    background: #444059;
+    border: 0;
+    border-radius: 8px;
+}
+
+#publish-btn {
+    display: block;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 317px;
+    height: 61px;
+    background: #28A9F1;
+    border: 0;
+    border-radius: 8px;
+
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+ul li {
+    flex-grow: 1;
+    min-width: 255px;
+    max-width: 255px;
+    background-color: white;
+    padding: 30px;
+    border: 0;
+    border-radius: 8px;
+    color: #1B1924;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filler {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+}
+
+#secondary {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#publish-btn:hover {
+    cursor: pointer;
+    background-color: #31579A;
+    transition: 0.3s;
+}
+
+#delete-btn {
+    font-family: 'Inter';
+    font-weight: 700;
+    width: 70px;
+    border: 0;
+    border-radius: 8px;
+    height: 30px;
+    background: #28A9F1;
+    color: white;
+}
+
+#delete-btn:hover {
+    cursor: pointer;
+    background-color: #31579A;
+    transition: 0.3s;
+}
+
+p {
+    font-weight: 700;
+}
