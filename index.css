@@ -109,7 +109,7 @@ ul {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 15px;
     
 }
