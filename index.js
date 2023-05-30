@@ -14,6 +14,7 @@ const endEl = document.getElementById("end-el")
 const fromEl = document.getElementById("from")
 const toEl = document.getElementById("to")
 const endList = document.getElementById("end-list")
+let clickCount = 0
 
 button.addEventListener("click", function() {
     let userInput = endEl.value
