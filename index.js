@@ -61,6 +61,7 @@ function addEndorsement(current) {
                 likes: endlikes + 1
             })
             clickCount += 1
+        }
     })
     deletebtn.addEventListener("click", function() {
         let end_loc = ref(database, `endorsements/${endID}`)
