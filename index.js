@@ -55,10 +55,12 @@ function addEndorsement(current) {
     deletebtn.innerHTML = "DELETE"
     newend.append(deletebtn)
     likesbtn.addEventListener("click", function() {
-        let end_loc = ref(database, `endorsements/${endID}`)
-        update(end_loc, {
-            likes: endlikes + 1
-        })
+        if (clickCount<1) {
+            let end_loc = ref(database, `endorsements/${endID}`)
+            update(end_loc, {
+                likes: endlikes + 1
+            })
+            clickCount += 1
     })
     deletebtn.addEventListener("click", function() {
         let end_loc = ref(database, `endorsements/${endID}`)
